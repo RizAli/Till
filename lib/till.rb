@@ -18,5 +18,9 @@ class Till
     load_items_list[item]
   end
 
+  def add(item)
+    @items << item
+    p @items
+  end
 
 end
